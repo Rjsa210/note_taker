@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'index.html')));
 app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, 'notes.html')));
-app.get('/api/notes', (req, res) => res.send(noteList));
+app.get('/api/notes', (req, res) => res.json(noteList));
 
 app.post('/api/notes', (req,res) => {
   // const newNote = req.body;
@@ -24,18 +24,12 @@ app.post('/api/notes', (req,res) => {
     text: req.body.text,
     id: uuidv4()
   };
-  // if (noteList) {
-  //   joiner();
-  //   todoList.push(newNote);
-  //   console.log(newNote);
-  // } else {
-  //   todoList.push(newNote);
-  //   console.log('first but no JSON');
-  // }
-  todoList.push(noteList);
+  todoList = noteList;
   todoList.push(newNote);
+
+  
   fs.writeFileSync('../db/db.json', JSON.stringify(todoList, null, 2));
-  res.send(noteList);
+  res.send(todoList);
 
 });
 

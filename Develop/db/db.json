@@ -1,12 +1,22 @@
 [
   {
-    "title": "first",
-    "text": "this is the first note",
-    "id": "27889532-c53b-4c84-8b06-678d452f756d"
+    "title": "First ",
+    "text": "this is my first note",
+    "id": "85b0f723-0260-4dfe-bf09-4d8da870cbd2"
   },
   {
-    "title": "second",
-    "text": "this is the second note",
-    "id": "802030fb-5cfa-402f-be60-fd955483b0ae"
+    "title": "Second",
+    "text": "this is my second note",
+    "id": "f34a6aaa-955d-479c-bc2c-1118a65e12e3"
+  },
+  {
+    "title": "third ",
+    "text": "this is my third note, when I restart the server, you should still see notes 1-3",
+    "id": "0a25702f-c037-4d78-9865-f8a2b223fee9"
+  },
+  {
+    "title": "Fourth ",
+    "text": "when i add this it should be addet to the other notes and not delete them",
+    "id": "8a0273e2-b565-4efd-a805-4e6d4010ae71"
   }
 ]
