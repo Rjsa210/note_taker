@@ -32,6 +32,11 @@ const getNotes = () =>
       'Content-Type': 'application/json',
     },
   });
+  // .then((res) => res.json())
+  // .then((data) => {
+  //   console.log(data)
+  // })
+  // ;
 
 const saveNote = (note) =>
   fetch('/api/notes', {
@@ -175,6 +180,6 @@ if (window.location.pathname === '/notes') {
   newNoteBtn.addEventListener('click', handleNewNoteView);
   noteTitle.addEventListener('keyup', handleRenderSaveBtn);
   noteText.addEventListener('keyup', handleRenderSaveBtn);
-}
+};
 
-getAndRenderNotes();
+getNotes();
