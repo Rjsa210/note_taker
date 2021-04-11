@@ -1,17 +1,12 @@
 [
+  {},
   {
-    "title": "Walk the dog",
-    "text": "I need to walk the dog at least 5 miles",
-    "id": 1
+    "title": "first",
+    "text": "this is first"
   },
+  {},
   {
-    "title": "walk the cat",
-    "text": "I need to walk the cat at least 5 miles",
-    "id": 1
-  },
-  {
-    "title": "Milk the cow",
-    "text": "I need to walk the dog at least 5 miles",
-    "id": 1
+    "title": "second",
+    "text": "this is second"
   }
 ]
