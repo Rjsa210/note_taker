@@ -1,12 +1,12 @@
 [
-  {},
   {
     "title": "first",
-    "text": "this is first"
+    "text": "this is the first note",
+    "id": "27889532-c53b-4c84-8b06-678d452f756d"
   },
-  {},
   {
     "title": "second",
-    "text": "this is second"
+    "text": "this is the second note",
+    "id": "802030fb-5cfa-402f-be60-fd955483b0ae"
   }
 ]
